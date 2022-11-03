@@ -8,7 +8,8 @@
     <link rel="icon" type="image/x-icon" href="/images/fav/favicon.ico">
     <meta http-equiv="refresh" content="URL=/404.html" />
     <style>
-      body{
+       @import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');      body{
+        background-color: lightblue;
         margin: 0;
         padding: 0;
         font-family: Arial, Helvetica, sans-serif;
@@ -21,14 +22,21 @@
         width: 100%;
         max-width: 850px;
       }
-
       h1{
         text-align: center;
+        font-size: 40px;
+      }
+      h1,h2,h3,h4{
+        font-family: 'Varela', sans-serif;
       }
       .railay-img{
-        padding: 10px 5px;
+        margin: 0px 10px;
         width: 50%;
         display: inline-block;
+      }
+      .image-shadow{
+        border:1px black solid;
+        box-shadow: 5px 5px 8px;
       }
       .flex{
         display: flex;
@@ -99,7 +107,7 @@
              Blackthorne is shipwrecked near Izu, then alternating between locations
               in Anjiro, Mishima, Osaka, Yedo, and Yokohama.
         </p>
-        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Shogun.jpg/220px-Shogun.jpg"/>
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Shogun.jpg/220px-Shogun.jpg" class='image-shadow'/>
         <h3>Why I like this movie</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -140,8 +148,8 @@
       </p>
       <h3>Images:</h3>
       <div style="display: flex;">
-      <img class="railay-img" src="/images/Railay/1.jpg"/>
-      <img class="railay-img" src="/images/Railay/2.jpg"/>
+      <img class="railay-img image-shadow" src="/images/Railay/1.jpg" />
+      <img class="railay-img image-shadow" src="/images/Railay/2.jpg"/>
       </div>
       <h3><a href="https://www.google.com/maps/place/Railay+Beach,+Ao+Nang,+Mueang+Krabi+District,+Krabi,+Thailand/data=!4m2!3m1!1s0x3051ea9e0792e58b:0x61d88bb17c215081?sa=X&hl=en&ved=2ahUKEwjl1Z2Axo_7AhVRlxoKHYLRDTIQ8gF6BAh8EAE">
         Find me on Google Maps</a></h3>
