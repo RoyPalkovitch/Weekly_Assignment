@@ -1,0 +1,18 @@
+1) We want a browser to have the ability to communicate with a server through the internet for example:
+get data, send data, show videos and visuals etc..
+
+3) 
+  a) The client side responsibility will be to let the user see a page that represent the data in a readable way.
+     (and if we can it should have nice visuals :) )
+
+  b) In the back-end we should run an engine that waits for http requests.
+     the server should return the requested page and be able to identify the current user and the machine he is using to access the page.
+
+4)
+  server characteristics:
+    be able to recive requests send new data and altered saved data
+    able to process mime
+    have an internet connection
+    identify the user that trying to reach it
+    and it will be good if it has great amount of ram and cpu
+
