@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap'); 
+body{
+  background-color: lightblue;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main{
+  margin-top: 100px;
+}
+section{
+  margin: auto;
+  width: 100%;
+  max-width: 850px;
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+}
+h1,h2,h3,h4{
+  font-family: 'Varela', sans-serif;
+  margin-bottom: 10px;
+}
+img{
+  margin-bottom: 20px;
+}
+table{
+  width: 100%;
+}
+
+
+th, td{
+  width: 20%;
+  border: 1px solid;
+  text-align: center;
+  height: 50px;
+}
+
+ul{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.railay-img{
+  margin: 30px 30px;
+  width: 50%;
+  display: inline-block;
+}
+.image-shadow{
+  border:1px black solid;
+  box-shadow: 5px 5px 8px;
+}
+.flex{
+  display: flex;
+  width: 100%;
+}
+.header{
+  background-color: palegreen;
+  position:fixed;
+  width: 100%;
+  top:0;
+}
+.nav{
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.nav ul{
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.li{
+  display: inline;
+  padding: 0px 50px;
+}
+.li a{
+  color:rgb(41, 39, 39);
+}
+.li a:hover{
+  color:blueviolet
+}
+
+.button{
+  margin: auto;
+  margin-right:0;
+  padding: 15px 20px;
+  color:white;
+  background-color: purple;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+
+.golden-star{
+  color: gold !important;;
+}
+
+.map-pin{
+  color: #551a8b !important;
+}
+
+.first-school{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+  color:white
+}
+
+.first-school-name{
+  background: #00d3ff;
+  background: linear-gradient(90deg, #00d3ff 0%, #01b5eb 35%, #039ad9 100%); 
+
+}
