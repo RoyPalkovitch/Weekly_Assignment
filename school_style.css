@@ -1,0 +1,31 @@
+table{
+  width: 100%;
+}
+
+
+th, td{
+  width: 20%;
+  border: 1px solid;
+  text-align: center;
+  height: 50px;
+}
+
+
+.golden-star{
+  color: gold !important;;
+}
+
+.map-pin{
+  color: #551a8b !important;
+}
+
+.first-school{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+  color:white
+}
+
+.first-school-name{
+  background: #00d3ff;
+  background: linear-gradient(90deg, #00d3ff 0%, #01b5eb 35%, #039ad9 100%); 
+}

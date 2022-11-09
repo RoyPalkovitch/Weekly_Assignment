@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>404 Error Page</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="/default_style.css">
 
   <link rel="stylesheet" href="/custom_css.css">
   
@@ -14,9 +15,20 @@
   <header class="header">
     <nav class="nav">
       <ul>
-        <li class="li"><a href="/index.html">Home</a></li>
-        <li class="li"><a href="/schools.html">Schools</a></li>
-        <li class="li"><a href="/index.html/fav-food">Dead end</a></li>
+        <li class="menu-item"><a href="/index.html">Home</a>
+          <ul>
+            <li class="menu-item"><a href="/index.html#fav-book">Fav Book</a></li>
+            <li class="menu-item"><a href="/index.html#fav-place">Fav Place</a></li>
+            <li class="menu-item"><a href="/index.html#fav-food">Fav Food</a></li>
+          </ul>
+        </li>
+        <li class="menu-item"><a href="/schools.html">Schools</a>
+          <ul>
+            <li class="menu-item"><a href="/schools.html#ganim">First school</a></li>
+            <li class="menu-item"><a href="/schools.html#rishonim">Second School</a></li>
+          </ul>
+        </li>
+        <li class="menu-item"><a href="/index.html/fav-food">Dead end</a></li>
 
       </ul>
     </nav>
